@@ -8,6 +8,7 @@ if __name__ == '__main__':
         if ret is True:
             roi = frame[250:300, 0:640]
             
+            
             cv2.imshow('frame', frame)
             if cv2.waitKey(1) & 0xFF == ord('s'):   # 's' to break
                 break

@@ -16,4 +16,4 @@ if __name__ == '__main__':
             break
             
 camera.release()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() # essencial no Raspberry Pi

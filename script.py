@@ -2,9 +2,6 @@ import cv2
 
 camera = cv2.VideoCapture(0)    # cam (n) : {0, 1, ... n}
 
-
-
-
 if __name__ == '__main__':   
     while True:
         ret, frame = camera.read()  
